@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Application.InputModels
+﻿namespace CleanArchitecture.Core.InputModels
 {
     public class ProductInputModel
     {

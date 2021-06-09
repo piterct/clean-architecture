@@ -1,6 +1,6 @@
-﻿using CleanArchitecture.Application.InputModels;
-using CleanArchitecture.Application.ViewModels;
+﻿using CleanArchitecture.Core.InputModels;
 using CleanArchitecture.Core.Interfaces.Repositories;
+using CleanArchitecture.Core.ViewModels;
 
 namespace CleanArchitecture.Application.Services
 {
