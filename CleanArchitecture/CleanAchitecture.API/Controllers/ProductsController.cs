@@ -17,6 +17,9 @@ namespace CleanAchitecture.API.Controllers
         {
             var product = _productService.GetById(id);
 
+            if (product == null)
+                NotFound();
+
             return Ok(product);
         }
     }

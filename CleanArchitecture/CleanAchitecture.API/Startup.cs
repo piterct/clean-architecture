@@ -1,5 +1,7 @@
 using CleanArchitecture.Application.Services;
+using CleanArchitecture.Core.Interfaces.Repositories;
 using CleanArchitecture.Core.Interfaces.Services;
+using CleanArchitecture.InfraStructure.Persistence.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -28,6 +30,7 @@ namespace CleanAchitecture.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IProductRepository, ProductRepository>();
 
             services.AddControllers();
         }

@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CleanArchitecture.Application\CleanArchitecture.Application.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.InfraStructure\CleanArchitecture.InfraStructure.csproj" />
   </ItemGroup>
 
 
