@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="InputModels\" />
     <Folder Include="ViewModels\" />
     <Folder Include="Services\" />
   </ItemGroup>
