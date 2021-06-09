@@ -20,7 +20,9 @@ namespace CleanArchitecture.Application.Services
 
         public ProductViewModel GetById(int id)
         {
-            return new ProductViewModel();
+            var product = _productRepository.GetByID(id);
+
+            return new ProductViewModel(product.Title, product.Price);
         }
     }
 }
