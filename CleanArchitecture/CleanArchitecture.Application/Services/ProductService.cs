@@ -1,11 +1,12 @@
 ﻿using CleanArchitecture.Core.Entities;
 using CleanArchitecture.Core.InputModels;
 using CleanArchitecture.Core.Interfaces.Repositories;
+using CleanArchitecture.Core.Interfaces.Services;
 using CleanArchitecture.Core.ViewModels;
 
 namespace CleanArchitecture.Application.Services
 {
-    public class ProductService
+    public class ProductService: IProductService
     {
         private readonly IProductRepository _productRepository;
 
