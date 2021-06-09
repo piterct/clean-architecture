@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModels\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\CleanArchitecture.Core\CleanArchitecture.Core.csproj" />
   </ItemGroup>
 
 </Project>
