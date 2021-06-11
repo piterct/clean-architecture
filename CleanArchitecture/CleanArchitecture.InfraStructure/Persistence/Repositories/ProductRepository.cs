@@ -14,5 +14,10 @@ namespace CleanArchitecture.InfraStructure.Persistence.Repositories
         {
             throw new System.NotImplementedException();
         }
+        
+         public void Remove(Product product)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
