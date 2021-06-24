@@ -9,5 +9,9 @@
     <ProjectReference Include="..\CleanArchitecture.InfraStructure\CleanArchitecture.InfraStructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Filters\" />
+  </ItemGroup>
+
 
 </Project>

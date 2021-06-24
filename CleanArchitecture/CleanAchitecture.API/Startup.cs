@@ -1,3 +1,4 @@
+using CleanAchitecture.API.Extensions;
 using CleanArchitecture.Application.Services;
 using CleanArchitecture.Core.Interfaces.Repositories;
 using CleanArchitecture.Core.Interfaces.Services;
@@ -29,8 +30,8 @@ namespace CleanAchitecture.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddScoped<IProductService, ProductService>();
-            services.AddScoped<IProductRepository, ProductRepository>();
+            ServiceCollectionExtensions.AddRepositories(services);
+            ServiceCollectionExtensions.AddServices(services);
 
             services.AddControllers();
         }
