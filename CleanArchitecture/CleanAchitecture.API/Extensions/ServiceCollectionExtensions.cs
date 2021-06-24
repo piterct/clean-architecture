@@ -1,4 +1,6 @@
-﻿using CleanArchitecture.Core.Interfaces.Repositories;
+﻿using CleanArchitecture.Application.Services;
+using CleanArchitecture.Core.Interfaces.Repositories;
+using CleanArchitecture.Core.Interfaces.Services;
 using CleanArchitecture.InfraStructure.Persistence.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using System;
